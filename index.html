@@ -1,0 +1,282 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+
+  <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery.bxslider.js"></script>
+  <title>slider</title>
+  <link href="css/jquery.bxslider.css" rel="stylesheet" type="text/css">
+
+  <style>
+    p {
+      width: 100%;
+      height: 40px;
+      font-size: 20px;
+      color: #333;
+      line-height: 40px;
+      text-align: center;
+      font-family: "微软雅黑"
+    }
+  </style>
+
+</head>
+
+
+
+<body>
+
+  <!-- ---------------------------------slider1--------------------------------------------- -->
+
+  <p>slider1(maxSlides)</p>
+
+  <div class="slider1">
+
+    <div class="slide">
+      <img src="images/banner-1.jpg">
+    </div>
+
+    <div class="slide">
+      <img src="images/banner-2.jpg">
+    </div>
+
+    <div class="slide">
+      <img src="images/banner-3.jpg">
+    </div>
+
+    <div class="slide">
+      <img src="images/banner-4.jpg">
+    </div>
+
+    <div class="slide">
+      <img src="images/banner-1.jpg">
+    </div>
+
+    <div class="slide">
+      <img src="images/banner-2.jpg">
+    </div>
+
+    <div class="slide">
+      <img src="images/banner-3.jpg">
+    </div>
+
+    <div class="slide">
+      <img src="images/banner-4.jpg">
+    </div>
+
+  </div>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+
+      $('.slider1').bxSlider({
+
+        slideWidth: 200,
+
+        minSlides: 2,
+
+        maxSlides: 3,
+
+        slideMargin: 10
+
+      });
+
+    });
+  </script>
+
+
+
+  <!-- ---------------------------------slider2--------------------------------------------- -->
+
+  <p>slider2</p>
+
+  <div class="slider2">
+
+    <div class="slide">
+      <img src="images/banner-1.jpg">
+    </div>
+
+    <div class="slide">
+      <img src="images/banner-2.jpg">
+    </div>
+
+    <div class="slide">
+      <img src="images/banner-3.jpg">
+    </div>
+
+    <div class="slide">
+      <img src="images/banner-4.jpg">
+    </div>
+    <div class="slide">
+      <img src="images/banner-1.jpg">
+    </div>
+
+    <div class="slide">
+      <img src="images/banner-2.jpg">
+    </div>
+
+    <div class="slide">
+      <img src="images/banner-3.jpg">
+    </div>
+
+    <div class="slide">
+      <img src="images/banner-4.jpg">
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+
+      $('.slider2').bxSlider({
+
+        slideWidth: 300,
+
+        auto: true,
+
+        autoControls: true,
+
+        minSlides: 2,
+
+        maxSlides: 2,
+
+        slideMargin: 10
+
+      });
+
+    });
+  </script>
+
+
+
+  <!-- ---------------------------------slider3--------------------------------------------- -->
+
+  <p>slider3(moveSlides)</p>
+
+  <div class="slider3">
+    <div class="slide">
+      <img src="images/banner-1.jpg">
+    </div>
+
+    <div class="slide">
+      <img src="images/banner-2.jpg">
+    </div>
+
+    <div class="slide">
+      <img src="images/banner-3.jpg">
+    </div>
+
+    <div class="slide">
+      <img src="images/banner-4.jpg">
+    </div>
+    <div class="slide">
+      <img src="images/banner-1.jpg">
+    </div>
+
+    <div class="slide">
+      <img src="images/banner-2.jpg">
+    </div>
+
+    <div class="slide">
+      <img src="images/banner-3.jpg">
+    </div>
+
+    <div class="slide">
+      <img src="images/banner-4.jpg">
+    </div>
+
+  </div>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+
+      $('.slider3').bxSlider({
+
+        slideWidth: 352,
+
+        minSlides: 2,
+
+        maxSlides: 3,
+
+        moveSlides: 1,
+
+        slideMargin: 10
+
+      });
+
+    });
+  </script>
+
+
+
+
+
+
+
+  <!-- ---------------------------------slider4--------------------------------------------- -->
+
+  <p>slider4(startSlide)</p>
+
+  <div class="slider4">
+    <div class="slide">
+      <img src="images/banner-1.jpg">
+    </div>
+
+    <div class="slide">
+      <img src="images/banner-2.jpg">
+    </div>
+
+    <div class="slide">
+      <img src="images/banner-3.jpg">
+    </div>
+
+    <div class="slide">
+      <img src="images/banner-4.jpg">
+    </div>
+    <div class="slide">
+      <img src="images/banner-1.jpg">
+    </div>
+
+    <div class="slide">
+      <img src="images/banner-2.jpg">
+    </div>
+
+    <div class="slide">
+      <img src="images/banner-3.jpg">
+    </div>
+
+    <div class="slide">
+      <img src="images/banner-4.jpg">
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+
+      $('.slider4').bxSlider({
+
+        slideWidth: 200,
+
+        minSlides: 2,
+
+        maxSlides: 3,
+
+        moveSlides: 1,
+
+        startSlide: 1,
+
+        slideMargin: 10
+
+      });
+
+    });
+  </script>
+
+
+</body>
+
+
+
+</html>
